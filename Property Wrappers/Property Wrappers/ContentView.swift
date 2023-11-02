@@ -8,12 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var exibirMensagem: Bool = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(exibirMensagem ? "Mundo" : "Olá")
+                .font(.system(size: 26, weight: .bold))
+            Button("Alterar mensagem") {
+                exibirMensagem.toggle()
+            }
+            .padding()
+            .background(Color.blue)
+            .foregroundStyle(Color.white)
+            .cornerRadius(8)
         }
         .padding()
     }
