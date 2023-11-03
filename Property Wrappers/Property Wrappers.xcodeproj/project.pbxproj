@@ -11,6 +11,7 @@
 		46268E122AF3E01E003EEE3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46268E112AF3E01E003EEE3B /* ContentView.swift */; };
 		46268E142AF3E01F003EEE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46268E132AF3E01F003EEE3B /* Assets.xcassets */; };
 		46268E172AF3E01F003EEE3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46268E162AF3E01F003EEE3B /* Preview Assets.xcassets */; };
+		4677103E2AF525C900BA4EF5 /* ChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677103D2AF525C900BA4EF5 /* ChangeValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		46268E112AF3E01E003EEE3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46268E132AF3E01F003EEE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46268E162AF3E01F003EEE3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4677103D2AF525C900BA4EF5 /* ChangeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				46268E112AF3E01E003EEE3B /* ContentView.swift */,
 				46268E132AF3E01F003EEE3B /* Assets.xcassets */,
 				46268E152AF3E01F003EEE3B /* Preview Content */,
+				4677103D2AF525C900BA4EF5 /* ChangeValue.swift */,
 			);
 			path = "Property Wrappers";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4677103E2AF525C900BA4EF5 /* ChangeValue.swift in Sources */,
 				46268E122AF3E01E003EEE3B /* ContentView.swift in Sources */,
 				46268E102AF3E01E003EEE3B /* Property_WrappersApp.swift in Sources */,
 			);
